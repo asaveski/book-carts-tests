@@ -1,0 +1,18 @@
+{
+  "name": "book-carts-tests",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:book": "cypress run --spec cypress/bookApp/tests/*.ts",
+    "test:swagger": "cypress run --spec cypress/swaggerApp/tests/*.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "cypress": "^14.3.2",
+    "typescript": "^5.8.3"
+  }
+}
